@@ -1,0 +1,46 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+header #logo{
+    text-align: center;
+}
+
+#logo a{
+color: white;
+font-size: 4rem;
+font-family: 'Abril Fatface', cursive;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+#logo a span {
+    color: #b32821;
+}
+
+header p {
+    font-size: 1rem;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    border-top: solid 0.1rem white;
+    font-weight: bold;
+}
+
+header li {
+    padding: 0.5rem;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
