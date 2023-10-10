@@ -63,12 +63,14 @@ header a{
 
 #hero p {
     color: white;
+    text-shadow: black 0px 0px 20px;
 }
 
 #hero a {
     color:white;
     font-weight: bold;
-    text-decoration: underline
+    text-decoration: underline;
+    text-shadow: black 0px 0px 20px;
 }
 
 #hero .p-4 {
@@ -76,4 +78,43 @@ header a{
     background-image: url(./assets/imagenes/led-zepplin-16.webp);
     background-size: cover;
     background-blend-mode:multiply;
+}
+
+#cards h3 {
+    color: white;
+}
+
+#cards #top-10{
+    background-size: cover;
+    background-position: top;
+}
+
+#cards #top-10 a{
+    text-decoration: none;
+}
+
+#cards #excluidos{
+    background-size: cover;
+    background-position: right;
+}
+
+#cards #excluidos a{
+    text-decoration: none;
+}
+
+footer {
+    background-color: black;
+}
+
+footer p {
+    color: white;
+}
+
+footer .nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+footer .nav a:hover {
+    color: #b32821;
 }
