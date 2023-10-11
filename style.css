@@ -108,7 +108,9 @@ header a{
 #hanging-icons h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
-    color: black;
+    color:black;
+    border-bottom: #b32821 0.25rem solid;
+    font-size: 2.5rem;
 }
 
 #reco-bowie {
@@ -124,6 +126,7 @@ header a{
 }
 
 .ima img{
+    height: 50%;
     width: 100%;
     margin-top: 1rem;
     margin-bottom: 1rem;
